@@ -1,6 +1,6 @@
 # 🛒 MyShop - 온라인 쇼핑몰
 
-![MyShop project](https://github.com/beom123456/shoppingMallPj/assets/169109573/0f90836c-6583-4561-9c36-4482c02891ad)
+![image](https://github.com/beom123456/shoppingMallPage/assets/169109573/5a5bed7a-66fb-4a90-9144-d86af21f1a3a)
 
 ## 🚀 프로젝트 개요
 
@@ -32,7 +32,7 @@ MyShop은 사용자가 제품을 검색하고, 장바구니에 추가하며, 구
 
 ### 앤티티 관계도 
 
-![image](https://github.com/beom123456/Mall/assets/169109573/b3daeb3f-6d7a-45d5-9939-90b8b9ecc539)
+![image](https://github.com/beom123456/shoppingMallPage/assets/169109573/38a41ec8-1da0-4642-8975-f938c4ac4741)
 
 ## 📖 사용법
 
@@ -44,7 +44,8 @@ MyShop은 사용자가 제품을 검색하고, 장바구니에 추가하며, 구
   
  - DB에 가입정보 저장 후 로그인 페이지로 이동.
    
-![회원가입 페이지](https://github.com/beom123456/shoppingMallPj/assets/169109573/32255f55-09fc-457a-849f-2a88c5dbe0dc.jpg)
+![image](https://github.com/beom123456/shoppingMallPage/assets/169109573/023e42c3-8fd8-4ce9-b055-a09010da7e7d)
+
 
 ---
 
@@ -58,7 +59,13 @@ MyShop은 사용자가 제품을 검색하고, 장바구니에 추가하며, 구
 
 - 권한별 페이지 접근 설정
    
-![로그인 페이지](https://github.com/beom123456/shoppingMallPj/assets/169109573/8c16e6a0-1ef0-49c6-a620-a2870a358cc0.jpg)
+![image](https://github.com/beom123456/shoppingMallPage/assets/169109573/459bc77c-573a-4eb8-9af0-12532b64be62)
+
+---
+
+-로그인 실패
+
+![image](https://github.com/beom123456/shoppingMallPage/assets/169109573/72923fd4-d804-4ee5-ab4b-6b105a1c50fd)
 
 
 **관리자로 로그인 요청**
@@ -75,7 +82,7 @@ MyShop은 사용자가 제품을 검색하고, 장바구니에 추가하며, 구
 
 - 등록 내용과 이미지를 서버로 보냄.
   
-![상품 등록 페이지](https://github.com/beom123456/shoppingMallPj/assets/169109573/78520cfb-4c7b-414c-95d0-85c4488587b8.jpg)
+![image](https://github.com/beom123456/shoppingMallPage/assets/169109573/5ee674db-3f79-42bf-afa4-9be886f21f6e)
 
 
 
@@ -94,8 +101,8 @@ MyShop은 사용자가 제품을 검색하고, 장바구니에 추가하며, 구
 - 첫번 째로 올린 이미지를 대표이미지로 설정
   
 - 대표 이미지만 상품 설명 상단에 나오게 함
- 
-![image](https://github.com/beom123456/shoppingMallProject/assets/169109573/0aa4569f-d513-4f38-ad43-45d23b605efb)
+  
+ ![image](https://github.com/beom123456/shoppingMallPage/assets/169109573/b465a20a-6da6-4b21-b707-aa6500616243)
 
 ---
 
