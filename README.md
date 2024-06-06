@@ -210,6 +210,8 @@ MyShop은 사용자가 제품을 검색하고, 장바구니에 추가하며, 구
 
 - 상품 설명, 장바구니 창에서 주문 가능.
 
+- 주문 취소기능
+
 ![image](https://github.com/beom123456/shoppingMallPage/assets/169109573/64f5b56b-dc1a-4064-8d3a-28f6a58c4e05)
 
  
