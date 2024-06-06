@@ -63,7 +63,7 @@ MyShop은 사용자가 제품을 검색하고, 장바구니에 추가하며, 구
 
 ---
 
--로그인 실패
+- 로그인 실패
 
 ![image](https://github.com/beom123456/shoppingMallPage/assets/169109573/72923fd4-d804-4ee5-ab4b-6b105a1c50fd)
 
