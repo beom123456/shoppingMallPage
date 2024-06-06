@@ -493,14 +493,17 @@
 	
 	            <!-- Update and Delete buttons in the same row -->
 	            <div class="button-container">
-	                <button type="button" class="btn btn-primary update-review" th:attr="onclick='updateReview(\'' + ${review.id} + '\')'">내용 수정</button>
-	                <button type="button" class="btn btn-danger delete-review" th:attr="onclick='deleteReview(\'' + ${review.id} + '\')'">삭제</button>
+	                <button type="button" class="btn btn-primary update-review" th:value="${review.id}" onclick="updateReview(this.value)">내용 수정</button>
+	                <button type="button" class="btn btn-primary update-review" th:value="${review.id}" onclick="deleteReview(this.value)">삭제</button>
 	            </div>
+	            
+	            <!-- <button type="button" class="btn btn-primary update-review" th:attr="onclick='updateReview(\'' + ${review.id} + '\')'">내용 수정</button>
+	  			<button type="button" class="btn btn-danger delete-review" th:attr="onclick='deleteReview(\'' + ${review.id} + '\')'">삭제</button> -->
 	
 	            <!-- Image update buttons -->
 	            <div th:each="reviewImg, imgIndex : ${review.reviewImgList}" class="button-container">
 	                <input type="hidden" class="reviewImgId" th:value="${reviewImg.id}">
-	                <button type="button" class="btn btn-secondary update-image" th:attr="onclick='updateImage(\'' + ${reviewImg.id} + '\')'">
+	                <button type="button" class="btn btn-secondary update-image"  th:value="${reviewImg.id}" onclick="updateImage(this.value)">
 	                    <span th:if="${imgIndex.index == 0}">첫 번째 이미지 수정</span>
 	                    <span th:if="${imgIndex.index == 1}">두 번째 이미지 수정</span>
 	                </button>
@@ -519,6 +522,11 @@
     </div>
 </div>
 </html>
+
+<!-- <button type="button" class="btn btn-primary update-review" th:attr="onclick='updateReview(\'' + ${review.id} + '\')'">내용 수정</button>
+	  <button type="button" class="btn btn-danger delete-review" th:attr="onclick='deleteReview(\'' + ${review.id} + '\')'">삭제</button> -->
+
+<!-- attr = onclick 속성을 동적으로 사용하기 위해 사용 -->
 
 <!-- Thymeleaf의 th:attr 디렉티브는 HTML 요소에 속성을 동적으로 추가하거나 수정할 때 사용됩니다. 이 디렉티브를 사용하면 서버 측에서 생성된 동적 데이터를 HTML 요소에 삽입할 수 있습니다.
 

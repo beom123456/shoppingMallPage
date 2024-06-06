@@ -92,7 +92,7 @@ public class CartController {
         return new ResponseEntity<Long>(cartItemId, HttpStatus.OK);
     }
 
-    @PostMapping("/cart/orders")
+    @PostMapping("/cart/orders") //@RequestBody 어노테이션을 사용하여 JSON 형식의 데이터를 컨트롤러 메서드의 파라미터로 전달할 수 있습니다. 이때 JSON 데이터가 자동으로 해당하는 Java 객체로 변환됩니다. 이 때 숫자 형태의 데이터는 자동으로 숫자 타입으로 변환
     @ResponseBody
     public ResponseEntity orderCartItem(@RequestBody CartOrderDto cartOrderDto, Principal principal){
 

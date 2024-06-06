@@ -68,6 +68,14 @@ public class Item extends BaseEntity {
     @OneToMany(mappedBy = "item", orphanRemoval = true,
     		cascade = CascadeType.ALL, fetch = FetchType.LAZY)
     private List<Review> reviewList = new ArrayList<>();
+    
+    @OneToMany(mappedBy = "item", orphanRemoval = true,
+    		cascade = CascadeType.ALL, fetch = FetchType.LAZY)
+    private List<CartItem> cartItemList = new ArrayList<>();
+    
+    @OneToMany(mappedBy = "item", orphanRemoval = true,
+    		cascade = CascadeType.ALL, fetch = FetchType.LAZY)
+    private List<OrderItem> orderItemList = new ArrayList<>();
 
   	// 상품 수정하기 : 상품 정보 수정시 호출됨
   	// Item Entity 의 상태가 변경되면

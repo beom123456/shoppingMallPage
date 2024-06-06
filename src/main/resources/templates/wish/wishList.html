@@ -98,7 +98,6 @@
                         <span th:text="${wishItem.itemNm}" class="fs24 font-weight-bold"></span>
                     </td>
                     <td class="text-center align-middle">
-                		<button type="button" class="btn btn-white border border-gray btn-lg mb-2" onclick="addCart()">🛍️</button>          
                         <button type="button" class="btn btn-danger" th:data-id="${wishItem.wishItemId}" onclick="deleteWishItem(this)">제거</button>
                     </td>
                 </tr>
