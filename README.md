@@ -108,7 +108,7 @@ MyShop은 사용자가 제품을 검색하고, 장바구니에 추가하며, 구
 
 - 대표 이미지로 설정한 이미지와 상품에 간략한 설명이 매인화면에 나오도록 설정
 
-![image](https://github.com/beom123456/shoppingMallProject/assets/169109573/4af89361-6716-4141-b629-31cd4f9d4e9c)
+![image](https://github.com/beom123456/shoppingMallPage/assets/169109573/ae6af144-2654-4d45-8c8f-2b047bf76813)
 
 ---
 
@@ -121,7 +121,7 @@ MyShop은 사용자가 제품을 검색하고, 장바구니에 추가하며, 구
   
 - 등록자, 등록시간은 Audit으로 만든 createdBy, regTime 으로 설정
   
-![image](https://github.com/beom123456/shoppingMallProject/assets/169109573/f6b70fd0-866d-4cfa-96fe-20f3b74f91da)
+![image](https://github.com/beom123456/shoppingMallPage/assets/169109573/b355d369-d78c-4ed0-9eda-e57b01e1a876)
 
 ---
 
@@ -132,19 +132,20 @@ MyShop은 사용자가 제품을 검색하고, 장바구니에 추가하며, 구
 
 - 날짜 설정
 
-![image](https://github.com/beom123456/shoppingMallProject/assets/169109573/a96d7439-8623-425c-a71e-4828cf37b0db)
+![image](https://github.com/beom123456/shoppingMallPage/assets/169109573/88fa3b54-c2cb-42b3-91c1-b207fb5588ba)
 
 - 판매 상태 여부
 
-![image](https://github.com/beom123456/shoppingMallProject/assets/169109573/9ee6ebd2-673d-4579-9c9c-0c44d4c47b01)
+![image](https://github.com/beom123456/shoppingMallPage/assets/169109573/8aa5af5a-3283-4599-91be-49169293d440)
 
 - 상품명으로 검색
 
-![image](https://github.com/beom123456/shoppingMallProject/assets/169109573/d8aa2fa8-362a-409f-bdbe-4a6a9ae1bfe6)
+![image](https://github.com/beom123456/shoppingMallPage/assets/169109573/c12448a8-76fe-47b2-8f2a-f00400ba2e13)
+
 
 - 등록자 이름으로 검색 
 
-![image](https://github.com/beom123456/shoppingMallProject/assets/169109573/2decabd9-7ae8-488c-8b1c-30f776e2b56f)
+![image](https://github.com/beom123456/shoppingMallPage/assets/169109573/f7da751f-db5e-4d29-934b-3ee2b973b51a)
 
 
 
@@ -152,7 +153,7 @@ MyShop은 사용자가 제품을 검색하고, 장바구니에 추가하며, 구
 
 - 상품 삭제시 상품에 대한 리뷰, 이미지 모두 삭제
 
-![image](https://github.com/beom123456/Mall/assets/169109573/a63fcb28-d846-4427-b81e-7f08f99d8328)
+![image](https://github.com/beom123456/shoppingMallPage/assets/169109573/6e219daf-2c1c-4c0f-b28e-eb2b7ab3757d)
 
 ---
 
@@ -160,7 +161,7 @@ MyShop은 사용자가 제품을 검색하고, 장바구니에 추가하며, 구
 
 - 내용, 별점, 2개의 이미지 작성 가능.
 
-![image](https://github.com/beom123456/Mall/assets/169109573/d9908ec6-36ff-4e4b-94cd-3963325f101d)
+![image](https://github.com/beom123456/shoppingMallPage/assets/169109573/8cea360f-971b-473b-9011-b9dda42eb4ba)
 
 ---
 
@@ -168,19 +169,20 @@ MyShop은 사용자가 제품을 검색하고, 장바구니에 추가하며, 구
 
 **수정 전**
 
-![image](https://github.com/beom123456/Mall/assets/169109573/73843f67-63f1-4d7f-9b75-aaeb745b1469)
+![image](https://github.com/beom123456/shoppingMallPage/assets/169109573/7649c67e-45b4-443f-8c6d-5412b06da342)
 
 ---
 
 **수정 후**
 
-![image](https://github.com/beom123456/Mall/assets/169109573/c2813776-9511-4891-aceb-dfd577d3fa80)
+![image](https://github.com/beom123456/shoppingMallPage/assets/169109573/77d2a414-e9cd-498f-b332-7540380ed1cc)
+
 
 ---
 
 **삭제**
 
-![image](https://github.com/beom123456/Mall/assets/169109573/b880f31f-cddc-4e09-9846-84f883581b26)
+![image](https://github.com/beom123456/shoppingMallPage/assets/169109573/a21ee23f-50e0-4d89-9713-ae9a83cfb72b)
 
 ---
 
@@ -190,7 +192,7 @@ MyShop은 사용자가 제품을 검색하고, 장바구니에 추가하며, 구
 
 - 늘린 수량 만큼 장바구니 페이지로 이동 
 
-![image](https://github.com/beom123456/Mall/assets/169109573/5ad86958-43f2-4172-9fe9-edcb7974ebd0)
+![image](https://github.com/beom123456/shoppingMallPage/assets/169109573/b571491f-e9ea-400c-9a12-013859263083)
 
 ---
 
@@ -198,7 +200,9 @@ MyShop은 사용자가 제품을 검색하고, 장바구니에 추가하며, 구
 
 - 상품을 선택하면 선택된 상품의 개수 만큼 가격이 올라옴
 
-![image](https://github.com/beom123456/Mall/assets/169109573/898ed5b8-2628-4129-bec8-64c1204c3ca6)
+![image](https://github.com/beom123456/shoppingMallPage/assets/169109573/7380ef5b-bc70-406f-ae13-ae2a15f44061)
+
+![image](https://github.com/beom123456/shoppingMallPage/assets/169109573/46dec766-c511-4ec0-8fd3-c8dd692af2fc)
 
 ---
 
@@ -206,15 +210,9 @@ MyShop은 사용자가 제품을 검색하고, 장바구니에 추가하며, 구
 
 - 상품 설명, 장바구니 창에서 주문 가능.
 
- ![image](https://github.com/beom123456/Mall/assets/169109573/ce3fa8a6-0405-4a7c-a034-8cd0516b394a)
+![image](https://github.com/beom123456/shoppingMallPage/assets/169109573/64f5b56b-dc1a-4064-8d3a-28f6a58c4e05)
 
- ![image](https://github.com/beom123456/Mall/assets/169109573/fd33c247-8aa2-4c15-9178-436d5d247599)
-
- ---
-
- - 주문 취소
-
- ![image](https://github.com/beom123456/Mall/assets/169109573/78dd4330-066c-4c2a-a1b7-09b5527bea6a)
+ 
 
 
 ## 📄 라이선스
