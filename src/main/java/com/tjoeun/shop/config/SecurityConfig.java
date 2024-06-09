@@ -25,9 +25,9 @@ public class SecurityConfig {
 				            .logoutSuccessUrl("/");
 
 		http.authorizeRequests().requestMatchers("/css/**", "/js/**", "/image/**").permitAll()
-                    				.requestMatchers("/", "/member/**", "/item/**", "/images/**","review/**").permitAll()
+                    				.requestMatchers("/", "/member/**", "/item/**", "/images/**").permitAll()
                     				.requestMatchers("/admin/**").hasRole("ADMIN").anyRequest().authenticated();
-
+							 		// anyRequest().anthenticated(); 그 외 모든 요청은 로그인 한 사람만 볼 수 있음.
 		// 관리자로 로그인 요청하기
 		http.exceptionHandling(exception -> exception.accessDeniedHandler(new CustomAccessDeniedHandler()));
 

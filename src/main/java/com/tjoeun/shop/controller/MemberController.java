@@ -87,8 +87,8 @@ public class MemberController {
   		if(authentication != null) {
   			new SecurityContextLogoutHandler().logout(request, response, authentication);
   		}
-  		 SecurityContextHolder.clearContext();
-  		 request.getSession().invalidate();
+  		 SecurityContextHolder.clearContext(); // 인증정보 제거 , 보안 초기화
+  		 request.getSession().invalidate();  // 세션 무효화
   		return "redirect:/";
   	}
     

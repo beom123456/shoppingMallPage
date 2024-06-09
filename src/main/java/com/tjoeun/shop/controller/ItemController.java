@@ -140,7 +140,13 @@ public class ItemController {
         model.addAttribute("reviewDto", new ReviewDto());
         model.addAttribute("item", itemFormDto);
         model.addAttribute("itemId", itemId);
-        model.addAttribute("userEmail", principal.getName());
+       // model.addAttribute("userEmail", principal.getName());
+        
+        if (principal != null) {
+            model.addAttribute("userEmail", principal.getName());
+        } else {
+            model.addAttribute("userEmail", "Anonymous");
+        }
         model.addAttribute("reviewList", reviewService.getReviewsByItemId(itemId));
         
         
